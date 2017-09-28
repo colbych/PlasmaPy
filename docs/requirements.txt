@@ -4,3 +4,4 @@ astropy
 coveralls
 numpydoc
 pytest
+sphinx
