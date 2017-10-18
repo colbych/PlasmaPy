@@ -105,3 +105,13 @@ ENV/
 
 # Auxilliary files associated with vim
 *.swp
+VIRTUAL/
+
+# Miscellaneous files
+.idea/
+Untitled*
+untitled*
+*debuglog*
+.DS_Store
+*/version.py
+*/cython_version.py
