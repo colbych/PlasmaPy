@@ -2,10 +2,14 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
-*.so
 *.a
+*.o
+*.so
+MANIFEST
+
+# Ignore .c files by default to avoid including generated code. If you want to
+# add a non-generated .c extension, use `git add -f filename.c`.
+*.c
 
 # Distribution / packaging
 .Python
@@ -46,6 +50,7 @@ nosetests.xml
 coverage.xml
 *,cover
 .hypothesis/
+.pytest_cache
 
 # Translations
 *.mo
@@ -64,6 +69,8 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+docs/api
+docs/gen_modules
 
 # PyBuilder
 target/
@@ -115,3 +122,6 @@ untitled*
 .DS_Store
 */version.py
 */cython_version.py
+
+# Documentation files
+auto_examples

@@ -1,43 +1,148 @@
-.. PlasmaPy documentation master file, created by
-   sphinx-quickstart on Wed May 31 18:16:46 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+:tocdepth: 3
 
-Welcome to PlasmaPy's documentation!
-====================================
+.. _plasmapy-documentation:
+
+######################
+PlasmaPy Documentation
+######################
+
+.. image:: _static/graphic-circular.png
+   :alt: PlasmaPy logo
+   :align: right
+   :scale: 80%
+
+`PlasmaPy <http://www.plasmapy.org/>`_ is an open source
+community-developed core `Python <https://www.python.org/>`_ 3.6+
+package for plasma physics in the early stages of development.
+
+.. _toplevel-getting-started:
+
+***************
+Getting Started
+***************
+
+* `Installing PlasmaPy
+  <https://github.com/PlasmaPy/PlasmaPy/blob/master/INSTALL.md>`_
+* :ref:`contributing-to-plasmapy`
+* :ref:`plasmapy-code-of-conduct`
+* `PlasmaPy's GitHub repository
+  <https://github.com/PlasmaPy/plasmapy>`_
+* `PlasmaPy website
+  <http://www.plasmapy.org/>`_
+* `Using astropy.units <http://docs.astropy.org/en/stable/units/>`_
+* :ref:`citation`
+
+.. _toplevel-user-documentation:
+
+******************
+User Documentation
+******************
+
+.. _toplevel-plasma-parameters:
+
+Theoretical Analysis
+--------------------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
 
-Classes
-=======
+   physics/index
+   transport/index
+   mathematics/index
+
+.. _toplevel-experimental-tools:
+
+Experimental Tools
+------------------
+
+The `~plasmapy.diagnostics` package is in the early stages of
+development.
+
+.. toctree::
+   :maxdepth: 1
+
+   diagnostics/index
+
+.. _toplevel-data-structures:
+
+Data Structures and Simulation
+------------------------------
 
 .. toctree::
     :maxdepth: 1
 
     plasma/index
+    species/index
 
-Functions
-=========
-.. toctree::
-    :maxdepth: 1
+.. _toplevel-physical-data:
 
-    dispersion_solver/index
-
-Development
-=======
+Physical Data
+-------------
 
 .. toctree::
     :maxdepth: 1
-       
-    development/code_guide
-    development/doc_guide
-    development/release_guide
 
-Indices and tables
-==================
+    constants/index
+    atomic/index
+
+.. _toplevel-utilities:
+
+Utilities
+---------
+
+.. toctree::
+   :maxdepth: 1
+
+   utils/index
+
+.. _toplevel-examples:
+
+Examples
+--------
+.. toctree::
+    :maxdepth: 1
+
+    auto_examples/index
+
+.. _toplevel-development-guide:
+
+*****************
+Development Guide
+*****************
+
+The :ref:`plasmapy-development-guide` contains information on how to
+contribute to PlasmaPy, along with guidelines for code, testing, and
+documentation.
+
+.. toctree::
+    :maxdepth: 1
+    :hidden:
+
+    development/index
+
+.. _toplevel-project-details:
+
+***************
+Project Details
+***************
+
+.. The about PlasmaPy section has some important information that would
+   be helpful to have more readily accessible from the main doc index
+   page.
+
+.. toctree::
+   :maxdepth: 2
+
+   about/index
+
+.. _toplevel-index:
+
+*****
+Index
+*****
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+.. TODO: Add feedback link: .. _feedback@plasmapy.org: mailto:feedback@plasmapy.org
